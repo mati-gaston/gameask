@@ -4,23 +4,35 @@
 /* Estilo general */
 body {
     font-family: 'Fredoka One', sans-serif;
-    background: linear-gradient(135deg, #3498db, #9b59b6);
-    background-size: 300% 300%;
-    animation: fondoAnimado 10s infinite alternate;
+    background-color: #f3f4f6; /* Color pastel claro */
+    background-image: radial-gradient(circle at 20% 20%, red 2px, transparent 1px),
+                      radial-gradient(circle at 80% 30%, blue 2px, transparent 1px),
+                      radial-gradient(circle at 50% 70%, green 2px, transparent 1px),
+                      radial-gradient(circle at 10% 90%, cyan 2px, transparent 1px),
+                      radial-gradient(circle at 90% 10%, violet 2px, transparent 1px),
+                      radial-gradient(circle at 30% 50%, pink 2px, transparent 1px),
+                      radial-gradient(circle at 70% 50%, yellow 2px, transparent 1px);
+    background-size: 80px 80px; /* Tamaño de los puntos más grande */
+    background-repeat: repeat;
+    animation: moverPuntos 30s linear infinite; /* Animación de desplazamiento de arriba hacia abajo */
     text-align: center;
     margin: 0;
     padding: 0;
-    color: white;
+    color: black;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Animación sutil del fondo */
-@keyframes fondoAnimado {
-    0% { background-position: left top; }
-    100% { background-position: right bottom; }
+/* Animación para mover los puntos de arriba hacia abajo */
+@keyframes moverPuntos {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 0% 100%;
+    }
 }
 
 /* Contenedor principal */
@@ -33,7 +45,7 @@ body {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     color: black;
     position: relative;
-    animation: entradaSuave 0.5s ease-in-out;
+    animation: entradaSuave 0.30s ease-in-out;
 }
 
 /* Animación de entrada */
@@ -184,4 +196,15 @@ button:hover {
 @keyframes rebote {
     from { transform: translateY(0); }
     to { transform: translateY(-5px); }
+
 }
+
+#icono { 
+    position: relative; /* Fija el ícono en la pantalla */
+    bottom: 50px; /* Lo coloca 20px desde la parte inferior */
+    right: 50px; /* Lo coloca 20px desde el lado derecho */
+    width: 300px; /* Establece el ancho del ícono */
+    height: 300px; /* Establece la altura del ícono */
+    animation: movimiento 6s ease-in-out infinite, rebote 1s infinite alternate; /* Animaciones */
+}
+
