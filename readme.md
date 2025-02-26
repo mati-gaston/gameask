@@ -1,4 +1,4 @@
-🎮 Juego de Preguntas y Respuestas sobre Argentina 🇦🇷
+🎮 Juego de Preguntas y Respuestas sobre Argentina 
 
 Bienvenido a este demo de juego de preguntas y respuestas inspirado en el clásico Preguntados. Pon a prueba tus conocimientos sobre Argentina en cuatro categorías diferentes: cultura, provincias, deportes y cine.
 
