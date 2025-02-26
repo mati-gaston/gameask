@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntas sobre Argentina</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="contenedor">
+        <!-- Pantalla de Inicio -->
+        <div id="pantalla-inicio" class="pantalla activa">
+            <h1>Preguntas sobre Argentina</h1>
+            <label for="nombre">Ingresa tu nombre:</label>
+            <input type="text" id="nombre" placeholder="Tu nombre">
+            <button id="btn-comenzar">Comenzar</button>
+        </div>
+
+        <!-- Selección de Módulo -->
+        <div id="seleccion-modulo" class="pantalla">
+            <h2>Selecciona un módulo:</h2>
+            <button class="modulo" data-modulo="cultura">Cultura Argentina</button>
+            <button class="modulo" data-modulo="provincias">Provincias</button>
+            <button class="modulo" data-modulo="deportes">Deportes</button>
+            <button class="modulo" data-modulo="peliculas">Películas</button>
+        </div>
+
+        <!-- Zona del juego -->
+        <div id="juego" class="pantalla">
+            <h2 id="pregunta"></h2>
+            <div id="opciones"></div>
+            <button id="btn-siguiente" class="oculto">Siguiente</button>
+        </div>
+
+        <!-- Pantalla de Resultado -->
+        <div id="resultado" class="pantalla">
+            <h2>¡Juego terminado!</h2>
+            <p id="mensaje-resultado"></p>
+            <button id="btn-reiniciar">Jugar otra vez</button>
+            <button id="btn-ranking">Ver ranking</button>
+        </div>
+
+        <!-- Ranking -->
+        <div id="ranking" class="pantalla">
+            <h2>Ranking de Jugadores</h2>
+            <ol id="lista-ranking"></ol>
+            <button id="btn-volver-inicio">Volver al inicio</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

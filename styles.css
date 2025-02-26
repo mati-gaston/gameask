@@ -1,0 +1,187 @@
+/* Fuente llamativa */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+/* Estilo general */
+body {
+    font-family: 'Fredoka One', sans-serif;
+    background: linear-gradient(135deg, #3498db, #9b59b6);
+    background-size: 300% 300%;
+    animation: fondoAnimado 10s infinite alternate;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Animación sutil del fondo */
+@keyframes fondoAnimado {
+    0% { background-position: left top; }
+    100% { background-position: right bottom; }
+}
+
+/* Contenedor principal */
+#contenedor {
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    color: black;
+    position: relative;
+    animation: entradaSuave 0.5s ease-in-out;
+}
+
+/* Animación de entrada */
+@keyframes entradaSuave {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+/* Pantallas */
+.pantalla {
+    display: none;
+}
+
+.pantalla.activa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Botones generales */
+button {
+    background: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efecto de onda en botones */
+button::after {
+    content: "";
+    position: absolute;
+    width: 300%;
+    height: 300%;
+    top: 50%;
+    left: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: transform 0.5s;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+}
+
+button:active::after {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+button:hover {
+    background: #2980b9;
+    transform: scale(1.1);
+}
+
+/* Botones de módulo */
+.modulo {
+    background: #f1c40f;
+    color: black;
+    width: 90%;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modulo::before {
+    content: "🎯";
+    font-size: 20px;
+}
+
+.modulo:hover {
+    background: #d4ac0d;
+    transform: scale(1.05);
+}
+
+/* Opciones de respuesta */
+#opciones button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    background: #f1c40f;
+    color: black;
+    font-size: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+#opciones button:hover {
+    background: #d4ac0d;
+    transform: scale(1.05);
+}
+
+/* Efecto de vibración si la respuesta es incorrecta */
+.opcion-incorrecta {
+    animation: vibrar 0.2s ease-in-out;
+}
+
+@keyframes vibrar {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+/* Efecto de destello si la respuesta es correcta */
+.opcion-correcta {
+    animation: destello 0.5s ease-in-out;
+}
+
+@keyframes destello {
+    0% { background: #2ecc71; transform: scale(1.05); }
+    100% { background: #27ae60; transform: scale(1); }
+}
+
+/* Ranking */
+#ranking {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #f1c40f;
+    padding: 15px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 350px;
+    color: black;
+}
+
+/* Ícono de trofeo en el ranking */
+#ranking::before {
+    content: "🏆";
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Mensaje de resultado con efecto */
+#mensaje-resultado {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e74c3c;
+    animation: rebote 1s infinite alternate;
+}
+
+/* Animación de rebote */
+@keyframes rebote {
+    from { transform: translateY(0); }
+    to { transform: translateY(-5px); }
+}

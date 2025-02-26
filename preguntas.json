@@ -1,0 +1,74 @@
+{
+    "cultura": [
+      { "pregunta": "¿El mate es la bebida nacional de Argentina?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Quién escribió 'El Aleph'?", "tipo": "MC", "opciones": ["Cortázar", "Borges", "Sábato", "Bioy Casares"], "respuesta": "Borges" },
+      { "pregunta": "¿El Obelisco fue construido en conmemoración del centenario de la independencia?", "tipo": "VF", "respuesta": "F" },
+      { "pregunta": "¿Qué famoso festival de folklore se celebra en Córdoba?", "tipo": "MC", "opciones": ["Cosquín", "Viña del Mar", "Baradero", "Jesús María"], "respuesta": "Cosquín" },
+      { "pregunta": "¿Quién compuso 'Adiós Nonino'?", "tipo": "MC", "opciones": ["Charly García", "Luis Alberto Spinetta", "Astor Piazzolla", "Mercedes Sosa"], "respuesta": "Astor Piazzolla" },
+      { "pregunta": "¿El Teatro Colón es uno de los teatros de ópera más importantes del mundo?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿En qué año se fundó Buenos Aires por segunda vez?", "tipo": "MC", "opciones": ["1536", "1580", "1601", "1776"], "respuesta": "1580" },
+      { "pregunta": "¿El tango fue declarado Patrimonio Cultural Inmaterial de la Humanidad?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Quién pintó 'Juanito Laguna'?", "tipo": "MC", "opciones": ["Antonio Berni", "Benito Quinquela Martín", "Xul Solar", "Raquel Forner"], "respuesta": "Antonio Berni" },
+      { "pregunta": "¿El lunfardo es un dialecto propio del noroeste argentino?", "tipo": "VF", "respuesta": "F" },
+      { "pregunta": "¿Qué escritor argentino ganó el Premio Nobel de Literatura?", "tipo": "MC", "opciones": ["Borges", "Sábato", "Ocampo", "Ninguno"], "respuesta": "Ninguno" },
+      { "pregunta": "¿En qué ciudad argentina nació José de San Martín?", "tipo": "MC", "opciones": ["Buenos Aires", "Córdoba", "Yapeyú", "Mendoza"], "respuesta": "Yapeyú" },
+      { "pregunta": "¿Qué famoso músico es conocido por la canción 'Muchacha ojos de papel'?", "tipo": "MC", "opciones": ["Luis Alberto Spinetta", "Charly García", "Fito Páez", "Gustavo Cerati"], "respuesta": "Luis Alberto Spinetta" },
+      { "pregunta": "¿El fileteado porteño es un estilo de pintura decorativa típico de Buenos Aires?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Mercedes Sosa es conocida como 'La voz de América'?", "tipo": "VF", "respuesta": "V" }
+    ],
+  
+    "provincias": [
+      { "pregunta": "¿La provincia de Córdoba es más grande que la de Buenos Aires?", "tipo": "VF", "respuesta": "F" },
+      { "pregunta": "¿Cuál es la capital de La Pampa?", "tipo": "MC", "opciones": ["Santa Rosa", "San Luis", "Neuquén", "Rawson"], "respuesta": "Santa Rosa" },
+      { "pregunta": "¿Misiones limita con Paraguay y Brasil?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Cuál de estas provincias NO es parte del NOA?", "tipo": "MC", "opciones": ["Salta", "Jujuy", "Tucumán", "Chubut"], "respuesta": "Chubut" },
+      { "pregunta": "¿Qué provincia tiene la mayor producción de vino?", "tipo": "MC", "opciones": ["San Juan", "La Rioja", "Mendoza", "Córdoba"], "respuesta": "Mendoza" },
+      { "pregunta": "¿Cuál es la provincia más austral de Argentina?", "tipo": "MC", "opciones": ["Tierra del Fuego", "Santa Cruz", "Chubut", "Río Negro"], "respuesta": "Tierra del Fuego" },
+      { "pregunta": "¿La provincia de Formosa tiene frontera con Bolivia?", "tipo": "VF", "respuesta": "F" },
+      { "pregunta": "¿Cuál es la capital de la provincia de Catamarca?", "tipo": "MC", "opciones": ["San Fernando del Valle", "La Rioja", "San Luis", "Tucumán"], "respuesta": "San Fernando del Valle" },
+      { "pregunta": "¿San Juan es conocida por su producción de aceite de oliva?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Qué provincia se encuentra más al norte de Argentina?", "tipo": "MC", "opciones": ["Jujuy", "Salta", "Formosa", "Misiones"], "respuesta": "Jujuy" },
+      { "pregunta": "¿Cuál es la provincia con más habitantes?", "tipo": "MC", "opciones": ["Buenos Aires", "Córdoba", "Santa Fe", "Mendoza"], "respuesta": "Buenos Aires" },
+      { "pregunta": "¿Corrientes es famosa por sus carnavales?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Cuál es la provincia de Argentina con más parques nacionales?", "tipo": "MC", "opciones": ["Misiones", "Santa Cruz", "Chubut", "Neuquén"], "respuesta": "Santa Cruz" },
+      { "pregunta": "¿El Cerro Aconcagua está en la provincia de Mendoza?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿El glaciar Perito Moreno está en Chubut?", "tipo": "VF", "respuesta": "F" }
+    ],
+  
+    "deportes": [
+      { "pregunta": "¿Argentina ganó la Copa del Mundo en 1986?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Qué tenista argentino ganó el US Open en 2009?", "tipo": "MC", "opciones": ["David Nalbandian", "Guillermo Coria", "Juan Martín del Potro", "Gastón Gaudio"], "respuesta": "Juan Martín del Potro" },
+      { "pregunta": "La seleccion argentina cuenta con 16 titulos Copa America?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Cuál es el equipo con más títulos de la Copa Libertadores en Argentina?", "tipo": "MC", "opciones": ["River Plate", "Boca Juniors", "Independiente", "Racing"], "respuesta": "Independiente" },
+      { "pregunta": "¿Manu Ginóbili jugó en los Chicago Bulls?", "tipo": "VF", "respuesta": "F" },
+      { "pregunta": "¿Quién fue el capitán de la selección argentina en la final del Mundial 2022?", "tipo": "MC", "opciones": ["Di María", "Messi", "Otamendi", "Dibu Martínez"], "respuesta": "Messi" },
+      { "pregunta": "¿Los Pumas es el nombre del equipo de rugby argentino?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Carlos Bianchi fue jugador de Racing?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Cuál es el deporte más practicado en Argentina?", "tipo": "MC", "opciones": ["Fútbol", "Rugby", "Hockey", "Tenis"], "respuesta": "Fútbol" },
+      { "pregunta": "¿Lionel Messi debutó en la primera de Barcelona en 2004?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Argentina tiene más de 10 medallas olímpicas en hockey femenino?", "tipo": "VF", "respuesta": "F" },
+      { "pregunta": "¿Boca Juniors tiene más de 5 copas libertadores de america?", "tipo": "VF", "respuesta": "V" },
+      { "pregunta": "¿Argentina tiene más de 20 medallas olímpicas en handball femenino?", "tipo": "VF", "respuesta": "F" },
+      { "pregunta": "¿River Plate tiene más de 5 copas libertadores de america?", "tipo": "VF", "respuesta": "F" },
+      { "pregunta": "¿Actualmente Franco Colapinto esta bajo la escuderia de Alpine?", "tipo": "VF", "respuesta": "V" }
+    ],
+
+    "peliculas": [
+  { "pregunta": "¿'El secreto de sus ojos' ganó el Oscar a Mejor Película Extranjera?", "tipo": "VF", "respuesta": "V" },
+  { "pregunta": "¿Quién dirigió 'Relatos Salvajes'?", "tipo": "MC", "opciones": ["Juan José Campanella", "Lucrecia Martel", "Damián Szifron", "Pablo Trapero"], "respuesta": "Damián Szifron" },
+  { "pregunta": "¿Ricardo Darín protagonizó 'Nueve Reinas'?", "tipo": "VF", "respuesta": "V" },
+  { "pregunta": "¿Qué película cuenta la historia de Gilda?", "tipo": "MC", "opciones": ["El Ángel", "La Odisea de los Giles", "Gilda, no me arrepiento de este amor", "Carancho"], "respuesta": "Gilda, no me arrepiento de este amor" },
+  { "pregunta": "¿Cuál de estas películas fue dirigida por Juan José Campanella?", "tipo": "MC", "opciones": ["El Secreto de Sus Ojos", "El Clan", "El Ángel", "La Patota"], "respuesta": "El Secreto de Sus Ojos" },
+  { "pregunta": "¿'La historia oficial' fue la primera película argentina en ganar un Oscar?", "tipo": "VF", "respuesta": "V" },
+  { "pregunta": "¿Quién dirigió la película 'El clan'?", "tipo": "MC", "opciones": ["Damián Szifron", "Pablo Trapero", "Lucrecia Martel", "Fabián Bielinsky"], "respuesta": "Pablo Trapero" },
+  { "pregunta": "¿Qué película argentina está basada en la historia de Robledo Puch?", "tipo": "MC", "opciones": ["El secreto de sus ojos", "El Ángel", "Nieve Negra", "Relatos Salvajes"], "respuesta": "El Ángel" },
+  { "pregunta": "¿Leonardo Sbaraglia actúa en 'Relatos Salvajes'?", "tipo": "VF", "respuesta": "V" },
+  { "pregunta": "¿Cuál de estas películas argentinas es un thriller sobre corrupción y justicia?", "tipo": "MC", "opciones": ["Carancho", "El Secreto de Sus Ojos", "La Odisea de los Giles", "Nueve Reinas"], "respuesta": "El Secreto de Sus Ojos" },
+  { "pregunta": "¿Quién dirigió 'La Ciénaga'?", "tipo": "MC", "opciones": ["Martín Scorsese", "Damián Szifron", "Juan José Campanella", "Lucrecia Martel"], "respuesta": "Lucrecia Martel" },
+  { "pregunta": "¿La película 'El secreto de sus ojos' está basada en un libro?", "tipo": "VF", "respuesta": "V" },
+  { "pregunta": "¿Quién escribió el guion de 'Nueve Reinas'?", "tipo": "MC", "opciones": ["Damián Szifron", "Juan José Campanella", "Fabián Bielinsky", "Pablo Trapero"], "respuesta": "Fabián Bielinsky" },
+  { "pregunta": "¿'La odisea de los giles' trata sobre la crisis económica del 2001 en Argentina?", "tipo": "VF", "respuesta": "V" },
+  { "pregunta": "¿Qué película argentina narra la historia del secuestro de Arquímedes Puccio?", "tipo": "MC", "opciones": ["El Clan", "El Ángel", "Relatos Salvajes", "Nieve Negra"], "respuesta": "El Clan" }
+]
+    }
+  
