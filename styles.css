@@ -18,6 +18,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    overflow-x: hidden; /* Evita desplazamiento horizontal */
     color: black;
     height: 100vh;
     display: flex;
@@ -200,11 +201,48 @@ button:hover {
 }
 
 #icono { 
-    position: relative; /* Fija el ícono en la pantalla */
+    position:relative; /* Fija el ícono en la pantalla */
     bottom: 50px; /* Lo coloca 20px desde la parte inferior */
     right: 50px; /* Lo coloca 20px desde el lado derecho */
     width: 300px; /* Establece el ancho del ícono */
     height: 300px; /* Establece la altura del ícono */
+    margin: 0; /* Elimina cualquier margen */
+    padding: 0; /* Elimina cualquier padding */
     animation: movimiento 6s ease-in-out infinite, rebote 1s infinite alternate; /* Animaciones */
 }
 
+
+
+@media (max-width: 768px) {
+    #icono {
+        width: 40px; /* Tamaño reducido */
+        height: 25px;
+        position: relative; /* Fijado en pantalla */
+        bottom: 20px; /* Distancia desde el borde inferior */
+        left: 0; /* Lo pega completamente a la izquierda */
+        right: auto; /* Asegura que 'right' no interfiera */
+        margin: 0; /* Elimina cualquier margen */
+        padding: 0; /* Elimina cualquier padding */
+    }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    #contenedor {
+        width: 90%;
+        max-width: 600px;
+        background: white;
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        color: black;
+        position: absolute; /* Lo posiciona de forma absoluta respecto al body */
+        top: 0; /* Lo fija en la parte superior */
+        left: 50%; /* Centra horizontalmente */
+        transform: translateX(-50%); /* Ajuste para centrar correctamente */
+        animation: entradaSuave 0.30s ease-in-out;
+    }
+}
